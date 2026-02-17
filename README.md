@@ -10,6 +10,14 @@ The notebook (`inverse_resnet.ipynb`) contains two main experiments:
 
 2. **Adversarial Image Manipulation**: Take real ImageNet images and subtly modify them so the model misclassifies them as a different target class, while keeping the images visually similar to the originals.
 
+## Results
+
+### Adversarial Images with Predictions
+![Altered images with probability scores](assets/altered_probs.png)
+
+### Before & After Comparison
+![Before and after adversarial manipulation](assets/before_after.png)
+
 ## Setup
 
 ```bash
